@@ -1,0 +1,96 @@
+/* CSS Document */
+
+a{
+	background-color: rgba(83,42,114,1.00);
+	padding: 10px 10px;
+	color: rgba(255,109,174,0.70);
+}
+body{
+	background-color:#7D59B0;
+}
+header{
+	background-color: #2C0847;
+}
+
+.sitenav {
+	overflow: hidden;
+	/*padding: 12px;*/
+}
+
+.sitenav a{
+	background-color: rgba(44,8,71,1.00);
+	float: left;
+	color: hsla(333,100%,84%,1.00);
+	text-align: center;
+	padding: 10px 5px 10px 10px;
+	font-size: 17px;
+}
+
+.sitenav a:hover{
+	background-color: hsla(254,36%,43%,1.00);
+	color: #FF6DAE;
+
+}
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#FCCCE8;
+	font-size: 19px;
+}
+table ,th,td {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #FCCCE8;
+	border: 2px solid #412D7E;
+	border-color: #3B2488;
+	padding:4px;
+	text-align: center;
+
+}
+
+/*th = table header*/
+
+tr:nth-child(even) {background-color: #5B4796;}
+tr:nth-child(odd) {background-color: rgba(91,71,150,0.30);}
+tr:first-child {background-color: #412D7E;}
+table {background: hsla(255,47%,34%,0.82)}
+
+h1 {
+	color:#3D0045;
+	background-color:#FF6DAE;
+	padding: 20px;
+}
+
+h2 {
+	color:#FDEDFF;
+	background-color:#FF6DAE;
+}
+.site-logo-img{
+	height: 1px;
+}
+
+#headerTitle{
+	background-color: rgba(255,109,174,1);
+}
+
+#wow-img{
+	margin: auto;	
+}
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 20px;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.gallery-item{
+	width: 300px;
+	text-align: center;
+}
+
+.gallery-item p {
+	margin: .25em 0;
+	line-height: 135%;
+}
+
