@@ -12,6 +12,13 @@ header{
 	background-color: #2C0847;
 }
 
+.Preface-Grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	
+}
+
 .sitenav {
 	overflow: hidden;
 	/*padding: 12px;*/
