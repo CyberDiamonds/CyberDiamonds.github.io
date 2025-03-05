@@ -4,9 +4,11 @@ a{
 	background-color: rgba(83,42,114,1.00);
 	padding: 10px 10px;
 	color: rgba(255,109,174,0.70);
+	text-decoration: none;
 }
 body{
 	background-color:#7D59B0;
+	
 }
 header{
 	background-color: #2C0847;
@@ -19,6 +21,31 @@ header{
 	
 }
 
+.logo-wrap{
+	width: 160px;
+	height: 144px;
+	overflow: hidden;
+	
+}
+
+.top-header-links{
+	text-align: right;
+	margin-top: -35px;
+	margin-bottom: -11px;
+	margin-right: 10px;
+}
+
+.top-header-links a{
+	color:rgba(218,75,244,0.89);
+	font-size: 19px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+.top-header-links a:hover{
+	background-color: hsla(254,36%,43%,1.00);
+}
 .sitenav {
 	overflow: hidden;
 	/*padding: 12px;*/
@@ -31,6 +58,7 @@ header{
 	text-align: center;
 	padding: 10px 5px 10px 10px;
 	font-size: 17px;
+	text-decoration: none;
 }
 
 .sitenav a:hover{
@@ -65,6 +93,8 @@ h1 {
 	color:#3D0045;
 	background-color:#FF6DAE;
 	padding: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
 }
 
 h2 {
@@ -75,12 +105,24 @@ h2 {
 	height: 140px;
 }
 
+.site-header{
+	margin-bottom: -9px;
+}
+
 .site-header a{
 	background: transparent;
 }
 
 #headerTitle{
-	background-color: rgba(255,109,174,1);
+	margin-bottom: 15px;
+	background-color:rgba(73,19,114,0.71);
+	border-color:rgba(218,75,244,0.89);
+	border-style: solid;
+	border-width: thin;
+	color:rgba(218,75,244,0.89);
+	font-family: "quokka", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 #wow-img{
