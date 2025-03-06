@@ -14,7 +14,6 @@ p{
 body{
 	/*background-color:#7D59B0;*/
 	align-content: center;
-	align-items: center;
 	background-color:#2C0847;
 	width: 1000px;
 	padding: 100px;
@@ -119,6 +118,8 @@ h1 {
 h2 {
 	color:#FDEDFF;
 	background-color:#FF6DAE;
+	border-radius: 50%;
+	border-bottom-left-radius: 0%;
 	}
 .site-logo-img{
 	height: 140px;
