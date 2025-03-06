@@ -14,9 +14,10 @@ p{
 body{
 	/*background-color:#7D59B0;*/
 	align-content: center;
+	align-items: center;
 	background-color:#2C0847;
-	padding: 100px;
 	width: 1000px;
+	padding: 100px;
 	
 }
 header{
