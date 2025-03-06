@@ -1,33 +1,56 @@
 <!doctype html>
 <html>
 	<style>
-		 body{
+		body{
 			 background-color: rgba(21,0,61,1.00);
-		 }
-		 .logo-wrap{
-			width: auto;
-			height: 144px;
+		}
+		 .top-wrap{
+			width: 100%;
+			height: 222px;
 			overflow: hidden;
-		  }
-		 #wow-img{
+		}
+		#wow-img{
 			 filter: contrast(80%);
 			 filter: hue-rotate(330deg);
 			 filter: brightness(80%);
-		 }
+			 position: sticky;
+			 bottom: 0;
+			 border-style: solid;
+			border-color: aquamarine;
+			 width:  222px;
+		}
+		
+		.bottom-wrap{
+			height: 199px;
+			overflow: hidden;
+		}
+		.container {
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: space-between;
+		  height: 100%;
+		  width: 100%;
+		  align-items: center;
+		}
 	 </style>
   <head>
   <body>
-	  <div class = "logo-wrap">
-	  	<img id = "litter-bkg" alt = "my littered room" src="images/Litter.jpg" width="1000px" >
-	  </div>
+	  <div class = "container">
+		<div class = "top-wrap">
+	  		<img id = "litter-bkg" alt = "my littered room" src="images/Litter.jpg" width="100%" >
+	  	</div>
 		
-	<h1>We Clean Up!</h1>
-	<h3>Check out my other sites!</h3>
-	  <p>
-		<a href="TrashOfTheWeek.html"> Trash Of the Week Site!</a> |
-		<a href="TrashOfTheWeek-Ugly.html"> Ugly Trash Of the Week Site!</a>
-	  </p>
-	   <img id = "wow-img" alt = "me doing the elmo fire meme" src="images/Wow.svg" width="522px">
+		<h1>We Clean Up!</h1>
+		<h3>Check out my other sites!</h3>
+	  	<p>
+			<a href="TrashOfTheWeek.html"> Trash Of the Week Site!</a> |
+			<a href="TrashOfTheWeek-Ugly.html"> Ugly Trash Of the Week Site!</a>
+	  	</p>
+		<div class="bottom-wrap">
+			<img id = "wow-img" alt = "me doing the elmo fire meme" src="images/Wow.svg">
+		</div>  
+
+	  </div>
 	   
   </body>
   </head>
