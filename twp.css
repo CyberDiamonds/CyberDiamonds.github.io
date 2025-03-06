@@ -95,7 +95,7 @@ table ,th,td {
 	border: 2px solid #412D7E;
 	border-color: #3B2488;
 	padding:4px;
-		text-align: center;
+	text-align: center;
 
 	}
 
@@ -118,8 +118,7 @@ h1 {
 h2 {
 	color:#FDEDFF;
 	background-color:#FF6DAE;
-	border-radius: 50%;
-	border-bottom-left-radius: 0%;
+	border-radius: 3px;
 	}
 .site-logo-img{
 	height: 140px;
@@ -146,7 +145,7 @@ h2 {
 }
 
 #wow-img{
-	margin: auto;	
+	
 }
 
 .gallery-grid {
