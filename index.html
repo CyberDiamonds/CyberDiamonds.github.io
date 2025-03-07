@@ -36,6 +36,16 @@
 		}
 		h1{
 			font-size: 50px;
+			margin-bottom: -22px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
+		.title-wrap{
+			display: flex;
+			flex-direction: row;
+			align-items:baseline;
+			align-content: center;
 		}
 		
 		.container {
@@ -57,6 +67,10 @@
 			color: rgba(147,0,176,1.00);
 			padding:6px;
 		}
+		i{
+			font-size: 33px;
+			color: rgba(190,118,152,1.00);
+		}
 	 
 	</style>
 	 <link rel="stylesheet" href="https://use.typekit.net/ofp3ubh.css">
@@ -67,7 +81,11 @@
 		<div class = "top-wrap">
 	  		<img id = "litter-bkg" alt = "my littered room" src="images/Litter.jpg" width="100%" >
 	  	</div>
-		<div><h1>We Clean Up! </h1></div>
+		<div class="title-wrap">
+			<div><i class="fa-regular fa-trash-can"></i></div>
+			<div><h1>We Clean Up! </h1></div>
+			<div><i class="fa-solid fa-recycle"></i></div>
+		  </div>
 		<div><h3>Check out my other sites!</h3></div>
 	  	<p>
 			<a href="TrashOfTheWeek.html"> Trash Of the Week Site! |</a>
