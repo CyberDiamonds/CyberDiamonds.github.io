@@ -5,6 +5,7 @@ a{
 	padding: 10px 10px;
 	color: rgba(255,109,174,0.70);
 	text-decoration: none;
+	border-radius: 50px;
 }
 
 p{
@@ -32,6 +33,7 @@ header{
 
 #preface-image{
 	width:330px;
+	height: 328px;
 	padding-right: 22px;
 }
 #preface-text{
@@ -119,7 +121,12 @@ h2 {
 	color:#FDEDFF;
 	background-color:#FF6DAE;
 	border-radius: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	}
+
 .site-logo-img{
 	height: 140px;
 	}
