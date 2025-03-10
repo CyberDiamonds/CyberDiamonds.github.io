@@ -16,9 +16,8 @@ body{
 	/*background-color:#7D59B0;*/
 	align-content: center;
 	background-color:#2C0847;
-	width: 1000px;
-	padding: 50%;
-	
+	width: 50%;
+	margin:	0 auto;
 }
 header{
 	background-color: #2C0847;
