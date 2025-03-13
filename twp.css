@@ -101,7 +101,8 @@ table ,th,td {
 	color: #FCCCE8;
 	border: 2px solid #412D7E;
 	border-color: #3B2488;
-	padding:4px;
+	width: 60%;
+	padding: 10px;
 	text-align: center;
 	font-size: 20px;
 
