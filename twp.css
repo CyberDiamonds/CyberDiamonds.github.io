@@ -23,7 +23,7 @@ body{
 	max-width: 900px;
 	width: 90%;
 	height: 100%;
-		  align-items: center;
+	align-content: center;
 }
 header{
 	background-color: #2C0847;
@@ -146,12 +146,12 @@ h2 {
 	}
 
 #headerTitle{
+	color: blueviolet;
 	margin-bottom: 15px;
 	background-color:rgba(73,19,114,0.71);
 	border-color:rgba(218,75,244,0.89);
 	border-style: solid;
 	border-width: thin;
-	color:rgba(218,75,244,0.89);
 	font-family: "quokka", sans-serif;
 	font-weight: 700;
 	font-style: normal;
