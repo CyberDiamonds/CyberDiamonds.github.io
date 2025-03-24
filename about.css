@@ -1,0 +1,64 @@
+/* CSS Document */
+/* CSS Document */
+
+
+#aboutmeimg{
+	width: 400px;
+}
+
+.about_wrapper{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+
+p{
+	font-size: 22px;
+	line-height: 160%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#FCCCE8;
+	font-size: 19px;
+}
+body{
+	background-color:#7D59B0;
+	align-content: center;
+	background-color:#2C0847;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.main-wrapper{
+	max-width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px 40px;
+}
+
+
+h1 {
+	color:#2C0844;
+	/*color:#3D0045;
+	background-color:#FF6DAE;
+	rgba(187,35,142,1.00)*/
+	background-color: rgba(187,35,142,1.00);
+	padding: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	border-radius: 10px;
+	
+	}
+
+a{
+	background-color: rgba(83,42,114,1.00);
+	padding: 10px 10px;
+	color: rgba(255,109,174,0.70);
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+
+
+
+
+/* CSS Document */
+
