@@ -12,6 +12,57 @@
 	align-items: center;
 }
 
+#headerTitle{
+	color:rgba(196,66,222,1.00);
+	margin-bottom: 15px;
+	background-color:rgba(73,19,114,0.71);
+	border-color:rgba(218,75,244,0.89);
+	border-style: solid;
+	border-width: thin;
+	font-family: "quokka", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+header{
+	background-color: #2C0847;
+}
+
+.top-header-links{
+	text-align: right;
+	margin-top: -35px;
+	margin-bottom: -11px;
+	margin-right: 10px;
+}
+
+.top-header-links a{
+	color:rgba(218,75,244,0.89);
+	font-size: 19px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+.top-header-links a:hover{
+	background-color: hsla(254,36%,43%,1.00);
+}
+.sitenav {
+	overflow: hidden;
+	/*padding: 12px;*/
+}
+
+.site-logo-img{
+	height: 140px;
+	}
+
+.site-header{
+	margin-bottom: -9px;
+	}
+
+.site-header a{
+	background: transparent;
+	}
+
 p{
 	font-size: 22px;
 	line-height: 160%;
