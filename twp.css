@@ -35,6 +35,8 @@ h2 {
 	padding: 20px 40px;
 }
 
+
+
 #headerTitle{
 	color:rgba(196,66,222,1.00);
 	margin-bottom: 15px;
@@ -163,10 +165,6 @@ h1 {
 	}
 
 
-#wow-img{
-	
-}
-
 .gallery-grid {
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -183,5 +181,17 @@ h1 {
 .gallery-item p {
 	margin: .25em 0;
 	line-height: 135%;
+}
+
+.groupWrapper a{
+	background-color: transparent;
+		padding: 0px 0px;
+
+}
+.groupWrapper a:hover{
+	background-color: transparent;
+	padding: 0px 0px;
+	color:#FF2ABF;
+
 }
 
