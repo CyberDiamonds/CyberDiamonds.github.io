@@ -76,6 +76,15 @@ header{
 	
 }
 
+#item-img{
+	transform: rotate(-90deg);
+}
+
+.item-align{
+	align-items: center;
+	
+}
+
 .top-header-links{
 	text-align: right;
 	margin-top: -35px;
