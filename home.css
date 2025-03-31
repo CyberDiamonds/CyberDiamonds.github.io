@@ -1,7 +1,15 @@
 /* CSS Document */
 
-header{
-	width: 100%;
+.site-header{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    padding-top: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+	align-items: center;
+	
 }
 .main-wrapper{
 	max-width: 900px;
@@ -11,28 +19,34 @@ header{
 	border:solid;
 }
 
-.logo-wrap{
-	width: 160px;
-	height: 50px;
+.logo-img{
+	width: 200px;
+	height: 60px;
 	overflow: hidden;
-	align-content: center;
 }
 
 body{
-/*	background-color:#4C4067;*/
-	background-color:#EDCFFF;
+	background-color:#433247;
 	align-content: center;
 	margin: 0;
 	padding: 0;
 }
 
-.searchbar{
-	float: left;
+.searchbar input{
+	width:222px;
+	height: 25px;
+	border-radius:4px;
+	text-align: center;	outline: none;
+	border:none;
+}
+.searchbar i{
+	color:#D59DEF;
+	font-size: 19px;
+	padding: 12px;
 }
 
 .navbar {
-  width: 100%;
-  background-color: black;
+/*  width: 300px;*/
   overflow: auto;
 }
 .navbar i{
@@ -56,7 +70,7 @@ body{
 
 /* Current/active navbar link */
 .active {
-  background-color: #C897FF;
+  background-color: #C899FF;
 }
 .searchbar i{
 	align-items: flex-start;
@@ -133,20 +147,25 @@ h2{
 }
 
 .showcase-img{
-	width: 200px;
+	min-width: 200px;
 	height:300px;
-	width 100%
-    min-height 100%
+	width: 100%;
+    min-height: 100%;
 /*	box-shadow: 12px 12px 40px #11053C;*/
 }
 
 .review-grid{
-	border:solid;
+/*	border:solid;*/
 	display:flex;
 	flex-direction: column;
 	padding: 10px;
 	justify-content: space-between;
 	
+}
+
+[class *= "review-card-"]{
+	border-radius: 20px;
+	background-color: #EAACFF;
 }
 .review-card-left{
 	border:solid;
@@ -177,13 +196,16 @@ h2{
 }
 
 .footer{
-	margin-top:150px;
-	padding: 100px 10%;
-	background: black;
-	color: white;
-	display: flex;
-	column-gap: 30px;
-	flex-direction: row;
+    position: relative;
+    margin-top: 111px; 
+    padding: 100px 10%;
+    background: black;
+    color: white;
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 55px;
+    font-family: "sauna-new", sans-serif;
+
 	
 }
 
@@ -193,9 +215,14 @@ h2{
 
 [class*=".col-"] {
 	flex-direction: column;
+	
 }
 
-.col-1{
+h4{
+	font-size: 26px;
+}
+
+.col-1 a{
 	display: flex;
 	text-decoration: none;
 	color: white;
@@ -207,7 +234,7 @@ h2{
 }
 
 form input{
-	width:321px;
+	width:222px;
 	height: 45px;
 	border-radius:4px;
 	text-align: center;
@@ -241,4 +268,18 @@ form button {
 	font-size: 22px;
 	margin: 10px;
 	cursor: pointer;
+}
+
+#trademark{
+    position: static;
+    width: 100%;
+    color: white;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+	background-color: black;
+	margin: 0;
+/*	font-size: 15px;*/
+	
 }
