@@ -26,7 +26,8 @@
 }
 
 body{
-	background-color:#433247;
+/*	background-color:#433247;*/
+	background-color: black;
 	align-content: center;
 	margin: 0;
 	padding: 0;
@@ -98,6 +99,10 @@ body{
 	text-align: center;
 	border: solid;
 }
+
+h2{
+	color: white;
+}
 h1{
 	font-family: "sauna-new", sans-serif;
 	font-weight: 900;
@@ -165,7 +170,7 @@ h2{
 
 [class *= "review-card-"]{
 	border-radius: 20px;
-	background-color: #EAACFF;
+	background-color: #FFE6D7;
 	border-color: white;
 }
 .review-card-left{
