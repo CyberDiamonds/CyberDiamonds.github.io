@@ -67,3 +67,11 @@ body{
   margin-right: 16px;
   font-size: 17px;
 }
+
+.homeimg{
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+	
+	
+}
