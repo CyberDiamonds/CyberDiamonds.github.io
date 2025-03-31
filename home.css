@@ -121,10 +121,16 @@ h2{
 .showcase-item p {
 	margin: -10em 0;
 	line-height: 135%;
+	font-family: "sauna-new", sans-serif;
+	font-size: 22px;
+	color: beige
+	
 }
 
 .showcase-img{
+	width: 200px;
+	height:300px;
 	width 100%
     min-height 100%
-	
+/*	box-shadow: 12px 12px 40px #11053C;*/
 }
