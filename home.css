@@ -9,6 +9,9 @@
     padding-bottom: 22px;
     justify-content: space-between;
 	align-items: center;
+	border: solid;
+	border-bottom-color: #C899FF;
+	border-width: 2px;
 	
 }
 .main-wrapper{
