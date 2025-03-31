@@ -113,14 +113,18 @@ h2{
 .showcase-item{
 	width: 200px;
 	height:300px;
-	border: solid;
+	margin: 0 auto;
 	text-align: center;
-	background-image: image("imagesFinal/cuscocity.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	border: solid;
 }
 
 .showcase-item p {
-	margin: .25em 0;
+	margin: -10em 0;
 	line-height: 135%;
+}
+
+.showcase-img{
+	width 100%
+    min-height 100%
+	
 }
