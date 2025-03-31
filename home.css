@@ -9,6 +9,61 @@
 
 .logo-wrap{
 	width: 160px;
-	height: 144px;
+	height: 50px;
 	overflow: hidden;
+	align-content: center;
+}
+
+body{
+/*	background-color:#4C4067;*/
+	background-color:#EDCFFF;
+	align-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.searchbar{
+	float: left;
+}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+.navbar i{
+	color: white;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #;
+}
+.searchbar i{
+	align-items: flex-start;
+}
+.navbar input[type=text] {
+  
+  float: right;
+  align-content: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
