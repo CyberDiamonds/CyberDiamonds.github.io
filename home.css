@@ -12,8 +12,20 @@
 	border: solid;
 	border-bottom-color: #C899FF;
 	border-width: 2px;
-	
 }
+.nav-links{
+	background-color: #C899FF;
+	text-align: center;
+	font-family: "sauna-new", sans-serif;
+	font-size: 20px; 	
+}
+
+.nav-links a{
+text-decoration: none;
+		color: black;
+
+}
+
 .main-wrapper{
 	max-width: 1400px;
 	height: 100%;
@@ -112,6 +124,7 @@ h1{
 	font-style: normal;
 	font-size: 60px;
 	margin: 0;
+	padding-top: 17px;
 }
 
 .homeimg{
