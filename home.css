@@ -38,11 +38,19 @@ text-decoration: none;
 }
 
 .logo-img{
-	width: 250px;
-	height: 60px;
-	overflow: hidden;
+	
 }
 
+.site-logo-img{
+    margin:0;
+    padding-top: -0px; 
+}
+.logo-wrap{
+    width: 250px;
+	height: 80px;
+	overflow: hidden;
+    filter: invert(1);
+}
 body{
 /*	background-color:#433247;*/
 	background-color: black;
@@ -159,28 +167,38 @@ h2{
 }
 
 .showcase-item{
-	width: 200px;
+	background-color:hsla(268,69%,23%,0.62);
+	border:solid #C899FF;
+	border-width: 2px; 
+    border-radius: 15px;
+	width: 222px;
 	height:300px;
 	margin: 0 auto;
 	text-align: center;
-	border: solid;
 }
 
 .showcase-item p {
-	margin: -10em 0;
-	line-height: 135%;
-	font-family: "sauna-new", sans-serif;
-	font-size: 22px;
-	color: beige
+	font-family: "quicksand", sans-serif;
+	font-size: 17px;
+	color: white;
 	
 }
 
+.intro p{
+    letter-spacing:1px;
+    line-height: 33px;
+    font-size: 20px;
+	color: white;
+    font-family: "quicksand thin", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
 .showcase-img{
-	min-width: 200px;
-	height:300px;
-	width: 100%;
-    min-height: 100%;
-/*	box-shadow: 12px 12px 40px #11053C;*/
+	margin-top: 20px;
+	height:70%;
+	width: 80%;
+	box-shadow: 0px 0px 40px purple;
 }
 
 .review-grid{
@@ -202,8 +220,11 @@ h2{
 	
 }
 [class *= "review-card-"] p{
-font-size: 20px;
+    font-size: 20px;
 	color: white;
+    font-family: "quicksand", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .review-card-left{
