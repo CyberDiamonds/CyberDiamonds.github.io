@@ -227,14 +227,36 @@ h2{
     font-style: normal;
 }
 
+.review-card-img{
+    width: 700px;
+    height: 200px;
+    margin:22px;
+    overflow: hidden;
+}
+
+.review-card-img img{
+    width: 1000px;
+    margin: 230px 0px 0px -260px;
+    overflow: hidden;
+}
+.review-card-img h1{
+    font-size: 70px;
+}
 .review-card-left{
 	border:solid;
 	display: flex;
+    flex-direction:column;
 	padding: 10px;
 	align-items: center;
 	margin-top:23px; 
-
+    
 }
+
+.rating-description{
+    display: flex;
+    flex-direction: row;
+}
+/*
 
 .review-card-right{
 	border:solid;
@@ -244,12 +266,13 @@ h2{
 	align-items: center;
 	margin-top:23px; 
 
-}
+}*/
 
 .review-img img{
 	width:300px;
 	padding-right: 20px;
 }
+
 
 .review{
 
