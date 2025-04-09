@@ -1,7 +1,8 @@
 /* CSS Document */
 
 .site-header{
-    width: 100%;
+    width: 900px;
+    margin: 0 auto;
     display: flex;
     background-color: black;
     padding-top: 22px;
