@@ -174,16 +174,29 @@ h2{
 	border-width: 2px; 
     border-radius: 15px;
 	width: 300px;
-	height:400px;
+    height:600px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.showcase-item h3{
+    color:white;
+    font-family: "quicksand", sans-serif;
+	font-size: 25px;
+    margin-top: 10px;
 }
 
 .showcase-item p {
 	font-family: "quicksand", sans-serif;
 	font-size: 17px;
 	color: white;
-	
+}
+.showcase-item button{
+    color:white;
+    font-size: 22px;
+    background-color: purple;
+    border: solid white 1px;
+    border-radius: 3px;
 }
 
 .intro p{
@@ -198,8 +211,9 @@ h2{
 
 .showcase-img{
 	margin-top: 20px;
-	height:70%;
-	width: 80%;
+	height:280px;
+	width: 240px;
+    border-radius: 10px;
 	box-shadow: 0px 0px 40px purple;
 }
 
