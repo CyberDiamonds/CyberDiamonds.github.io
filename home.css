@@ -218,9 +218,7 @@ h2{
 }
 
 [class *= "review-card-"]{
-	border-radius: 20px;
-	background-color: #000000;
-	border-color: white;
+	border-color: black;
 	color: white;
 	border-width: 1px;
 	
@@ -260,7 +258,6 @@ h2{
     font-size: 70px;
 }
 .review-card-left{
-	border:solid;
 	display: flex;
     flex-direction:column;
 	padding: 10px;
