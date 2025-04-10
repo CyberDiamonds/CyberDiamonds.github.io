@@ -173,8 +173,8 @@ h2{
 	border:solid #C899FF;
 	border-width: 2px; 
     border-radius: 15px;
-	width: 222px;
-	height:300px;
+	width: 300px;
+	height:400px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -310,6 +310,11 @@ h2{
     font-size: 30px;
     font-family: "quicksand", sans-serif;
 
+}
+
+.title i{
+    color:hsla(268,100%,80%,1.00);
+    
 }
 
 .footer{
