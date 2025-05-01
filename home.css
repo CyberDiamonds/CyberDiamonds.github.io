@@ -478,6 +478,10 @@ form button {
         position: absolute;
 }
 
+.worldmap i:hover {
+    color: #D59DEF;
+}
+
 #worldmap-item-cusco {
     top: 430px;
     left:580px;
