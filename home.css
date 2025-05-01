@@ -480,24 +480,21 @@ form button {
     position: relative;
 }
 
-.worldmap-item {
-    height: 24px;
-    position: absolute;
-}
+
 
 .worldmap i {
         color: white;
+        position: absolute;
 }
 
-#worldmap-item-pikilllajta {
-    position: center;
+#worldmap-item-cusco {
+    top: 30px;
 }
 
 #worldmap-item-lima {
     top: 325px;
     left:674px;
 }
-
 
 
 
