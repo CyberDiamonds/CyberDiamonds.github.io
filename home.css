@@ -470,8 +470,6 @@ form button {
     position: relative;
 }
 
-
-
 .worldmap i {
         color: white;
         font-size:25px;
@@ -518,6 +516,21 @@ form button {
     top:385px;
     left:380px;
 }
+
+.legend {
+    width: 800px;
+    height:80px;
+    border: solid white 1px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color:white;
+    column-gap: 20px;
+    font-size:30px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .map-des{
     display: flex;
