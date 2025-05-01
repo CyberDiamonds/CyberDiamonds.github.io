@@ -298,17 +298,7 @@ h2{
     flex-direction: row;
     column-gap: 70px;
 }
-/*
 
-.review-card-right{
-	border:solid;
-	display: flex;
-	flex-direction: row-reverse;
-	padding: 10px;
-	align-items: center;
-	margin-top:23px; 
-
-}*/
 
 .review-img img{
    
