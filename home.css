@@ -488,12 +488,17 @@ form button {
 }
 
 #worldmap-item-cusco {
-    top: 30px;
+    top: 430px;
+    left:580px;
 }
 
 #worldmap-item-lima {
-    top: 325px;
-    left:674px;
+    top: 365px;
+    left:374px;
+}
+#worldmap-item-machu {
+    top:405px;
+    left:540px;
 }
 
 
