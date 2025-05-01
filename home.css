@@ -460,10 +460,10 @@ form button {
 /* SECTION TO MAP PAGE*/
 
 .worldmap {
-    width: 900px;
+    width: 800px;
     height:600px;
     border: solid white 1px;
-    background:url("imagesFinal/pe.svg") no-repeat;
+    background:url("imagesFinal/map photos/cusco-map.svg") no-repeat;
     background-size: 900px 600px;
     padding: 0;
     margin: 0;
