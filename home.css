@@ -482,18 +482,51 @@ form button {
     color: #D59DEF;
 }
 
-#worldmap-item-cusco {
-    top: 430px;
-    left:580px;
+#worldmap-item-airport {
+    top: 340px;
+    left:310px;
+    font-size: 20px;
 }
-
-#worldmap-item-lima {
-    top: 365px;
-    left:374px;
+#worldmap-item-disco {
+    top: 310px;
+    left:284px;
+    font-size: 20px;
+}
+#worldmap-item-catcafe {
+    top:305px;
+    left:330px;
+    font-size: 20px;
+}
+#worldmap-item-saqsay {
+    top:269px;
+    left:270px;
+}
+#worldmap-item-ollan {
+    top:239px;
+    left:238px;
 }
 #worldmap-item-machu {
-    top:405px;
-    left:540px;
+    top:215px;
+    left:200px;
+}
+#worldmap-item-plaza {
+    top:315px;
+    left:307px;
+    font-size: 20px;
+}
+#worldmap-item-pikilla {
+    top:385px;
+    left:380px;
+}
+
+.map-des{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+.map-des i{
+    font-size: 30px;
 }
 
 
