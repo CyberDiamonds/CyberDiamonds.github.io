@@ -1,21 +1,23 @@
 /* CSS Document */
 
 .site-header{
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     display: flex;
-    background-color: black;
+    justify-content: space-between;
+	align-items: center;
+    
     padding-top: 22px;
     padding-right: 22px;
     padding-bottom: 22px;
-    justify-content: space-between;
-	align-items: center;
+    
+    background-color: black;
 	border: dotted;
 	border-bottom-color: #C899FF;
 	border-width: 2px;
 }
 .nav-links{
-	background-color: #black;
+	background-color: black;
 	border: solid;
 	border-width: 2px;
 	text-align: center;
@@ -431,3 +433,74 @@ form button {
 /*	font-size: 15px;*/
 	
 }
+
+/* SECTION FOR GALLERY BOTTOM OF HOME PAGE */
+
+@keyframes slideshow {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
+
+#page {
+	overflow-x:hidden;
+	overflow-y:hidden;
+    white-space: nowrap;
+/*	linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.90) 300%), url("imagesFinal/home.jpg");*/
+}
+
+#page:hover .gallery-grid-wrapper {
+    animation-play-state: paused;
+}
+.gallery-grid-wrapper {
+	display:inline-block;
+	width: 100%;
+	height:100%;
+	animation: slideshow 35s linear infinite;
+}
+
+.gallery-grid-wrapper .gallery-grid-item {
+ 	min-width: 50%;
+ 	margin-right: 5%;
+}
+
+/* SECTION TO MAP PAGE*/
+
+.worldmap {
+    width: 900px;
+    height:600px;
+    border: solid white 1px;
+    background:url("imagesFinal/pe.svg") no-repeat;
+    background-size: 900px 600px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.worldmap-item {
+    height: 24px;
+    position: absolute;
+}
+
+.worldmap i {
+        color: white;
+}
+
+#worldmap-item-pikilllajta {
+    top: 525px;
+    left:374px;
+}
+
+#worldmap-item-lima {
+    top: 325px;
+    left:674px;
+}
+
+
+
+
+
+
