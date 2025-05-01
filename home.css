@@ -490,8 +490,7 @@ form button {
 }
 
 #worldmap-item-pikilllajta {
-    top: 525px;
-    left:374px;
+    position: center;
 }
 
 #worldmap-item-lima {
