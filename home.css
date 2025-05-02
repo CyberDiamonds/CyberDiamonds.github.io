@@ -458,7 +458,9 @@ form button {
 }
 
 /* SECTION TO MAP PAGE*/
-
+.map-align{
+    margin:0 auto;
+}
 .worldmap {
     width: 800px;
     height:600px;
