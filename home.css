@@ -459,6 +459,7 @@ form button {
 
 /* SECTION TO MAP PAGE*/
 .map-align{
+    width: 1000px;
     margin:0 auto;
 }
 .worldmap {
@@ -517,6 +518,11 @@ form button {
 #worldmap-item-pikilla {
     top:385px;
     left:380px;
+}
+
+.legend-wrapper{
+    margin: 0 auto;
+    width: 1000px
 }
 
 .legend {
