@@ -33,16 +33,12 @@ text-decoration: none;
 }
 
 .main-wrapper{
-	max-width: 1400px;
+    width: 1000px;
 	height: 100%;
 	margin: 0 auto;
-	padding: 20px 40px;
+	padding: 10px;
 	border:solid;
     
-}
-
-.logo-img{
-	
 }
 
 .site-logo-img{
@@ -426,10 +422,10 @@ form button {
 
 /* SECTION FOR GALLERY BOTTOM OF HOME PAGE */
 .slider-wrap {
+    width: 100%;
     height: 300px;
     margin: auto;
     position: relative;
-    width: 90%;
     display: grid;
     place-items: center;
 }
@@ -657,7 +653,7 @@ form button {
 /*GALLERY PAGE */
 .gallery-wrap{
     margin:0 auto;
-    padding:10px;
+    padding:20px;
     box-sizing: border-box;
     max-width: 1000px;
 }
