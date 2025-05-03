@@ -546,33 +546,42 @@ form button {
 
 /* TIME LINE CSS*/
 
-.timeline {
+.timeline-wrap{
   margin: 0 auto;
   max-width: 750px;
   padding: 25px;
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
-  font-family: "quicksand thin", sans-serif;
   color: #ffffff;
 }
 
+.timeline_card h3{
+    text-align: right;
+    margin:-10px;
+}
 .timeline_card {
   margin: 0 20px 20px 20px;
+  
 }
 
-.timeline__component--bg {
+.timeline_card-des {
   padding: 1.5em;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(49,5,96,0.45);
+  box-shadow: 0 0 10px rgba(199,142,255,0.54);
   border-radius: 10px;
+  
 }
 
-.timeline__middle {
+.timeline_card-des p {
+    font-family: "quicksand thin", sans-serif;
+}
+
+.line_mid {
   position: relative;
   background: #ffffff;
 }
 
-.timeline__point {
+.point {
   position: absolute;
   top: 0;
   left: 50%;
@@ -583,7 +592,7 @@ form button {
   border-radius: 50%;
 }
 
-.timeline__date--right {
+.date-right {
   text-align: right;
 }
 
