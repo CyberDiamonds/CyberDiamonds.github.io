@@ -307,14 +307,13 @@ h2{
 
 .review-img img{
 	width:270px;
-	
 }
 
 .review-img{
     display: flex;
     flex-direction: row;
     column-gap: 20px;
-    margin-top: -20px;
+    padding-top: 20px;
 }
 
 .review-img-right{
