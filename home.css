@@ -512,7 +512,7 @@ form button {
     width: 800px;
     height:600px;
     border: solid white 1px;
-    background:url("imagesFinal/map photos/cusco-map.svg") no-repeat;
+    background:url("imagesFinal/map photos/cusco-map1.svg") no-repeat;
     background-size: 900px 600px;
     padding: 0;
     margin: 0;
@@ -523,10 +523,25 @@ form button {
         color: white;
         font-size:25px;
         position: absolute;
+    
+    
+}
+.worldmap span {
+    display: none;
+    font-family: "sauna-new", sans-serif;
+    color: white;
+
+}
+.worldmap i:hover span {
+    display: inline;
 }
 
 .worldmap i:hover {
     color: #D59DEF;
+    background-color: black;
+    border-radius: 20px;
+    padding: 7px;
+    transition: 0.4s;
 }
 
 #worldmap-item-airport {
@@ -603,6 +618,12 @@ form button {
     font-size: 15px;
     font-family: "quicksand thin", sans-serif;
     column-gap: 3px;
+}
+
+.main-wrapper p{
+    color: white;
+   
+
 }
 
 /* TIME LINE CSS*/
