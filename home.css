@@ -241,8 +241,27 @@ h2{
     
     width: 900px;
     margin: 0 auto;
+}
+.review-intro img{
+    	width:270px;
+        border-radius: 190px;
+}
 
-	
+.review-intro a{
+     color: #C899FF;
+    text-decoration: none;
+}
+.review-intro a:hover{
+    color: #6F23C8;
+}
+
+.review-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+    font-family: "quicksand", sans-serif;
+
 }
 
 [class *= "review-card-"]{
