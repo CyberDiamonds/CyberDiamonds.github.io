@@ -34,7 +34,9 @@
 	margin: 0 auto;
 	padding-top: 10px;
 	border:solid;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .site-logo-img{
@@ -515,7 +517,7 @@ form button {
     background:url("imagesFinal/map photos/cusco-map1.svg") no-repeat;
     background-size: 900px 600px;
     padding: 0;
-    margin: 0;
+    margin-left: 100px;
     position: relative;
 }
 
@@ -593,7 +595,7 @@ form button {
     height:80px;
     border: solid white 1px;
     padding: 0;
-    margin: 0;
+    margin-left: 100px;
     display: flex;
     color:white;
     column-gap: 20px;
@@ -624,8 +626,21 @@ form button {
 
 .main-wrapper p{
     color: white;
-   
-
+}
+.map-link a{
+    color: white;
+    font-family: "sauna-new", sans-serif;
+    font-size: 22px;
+    background-color:#5B2E8E;
+    border-radius: 20px;
+    padding: 7px;
+    text-decoration: none;
+}
+.map-link{
+    padding-top: 20px;
+}
+.map-link:hover a{
+    background-color:#9F69DD;
 }
 
 /* TIME LINE CSS*/
