@@ -814,12 +814,15 @@ form button {
 }
 .collection-bg-img h3{
     margin:0;
-    padding-top: 20%;
-    font-size: 30px
+    padding-top: 10%;
+    font-size: 30px;
+    padding-left: 20px;
 }
 
 .collection-bg-img p {
-        padding-right: 300px;
+    padding-right: 300px;
+    padding-left: 20px;
+    max-width: 600px;
 }
 
 
