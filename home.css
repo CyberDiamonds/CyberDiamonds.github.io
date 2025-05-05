@@ -796,6 +796,10 @@ form button {
     text-decoration: none;
     color: #C899FF;
 }
+.collection-card a:hover{
+    text-decoration: none;
+    color: #5500B9;
+}
 
 .collection-bg-img{
 	background-image: 
