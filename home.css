@@ -357,10 +357,15 @@ h2{
     
 }
 
+.footer-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer{
     position: relative;
     margin-top: 111px; 
-    padding: 100px 10%;
+    padding: 100px 5%;
 	padding-top: 30px;
     background: black;
     color: white;
@@ -370,6 +375,19 @@ h2{
     font-family: "sauna-new", sans-serif;
 	border-top:solid #C899FF;
 	
+}
+.footer-permissons{
+    position: relative;
+    padding: 10px 5%;
+	margin-top: -50px;
+    margin-bottom: -50px;
+    color: white;
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 55px;
+    font-family: "sauna-new", sans-serif;
+    align-items: center;
+    line-height: 1.5;
 }
 
 .footer div{
@@ -650,6 +668,11 @@ form button {
 }
 .map-link a:hover{
     background-color:#9F69DD;
+}
+
+.attribution-link{
+    text-decoration: none;
+    color: #9F69DD;
 }
 
 /* TIME LINE CSS*/
