@@ -52,6 +52,7 @@ body{
 	align-content: center;
 	margin: 0;
 	padding: 0;
+    overflow-x: hidden;
 }
 
 .searchbar input{
@@ -253,6 +254,7 @@ h2{
     align-items: center;
     column-gap: 40px;
     font-family: "quicksand", sans-serif;
+    line-height: 2;
 
 }
 
@@ -300,7 +302,8 @@ h2{
 	padding: 10px;
 	align-items: center;
 	margin-top:23px; 
-    
+    letter-spacing:1.8px;
+    line-height: 2;
 }
 
 .rating-description{
@@ -374,6 +377,8 @@ h2{
     padding-bottom: 55px;
     font-family: "sauna-new", sans-serif;
 	border-top:solid #C899FF;
+    justify-content: space-between;
+
 	
 }
 .footer-permissons{
@@ -450,6 +455,14 @@ form button {
 	margin: 10px;
 	cursor: pointer;
 }
+.footer-wrap a{
+    color: white;
+    text-decoration: none;
+}
+.footer-wrap a:hover{
+    color: #C899FF;
+
+}
 
 #trademark{
     position: static;
@@ -478,7 +491,7 @@ form button {
 .slider-track{
     display: flex;
     width: calc(300px * 12); /* track width = total # slides x indiv slide width */
-/*    animation: slideshow 40s linear infinite;*/
+    animation: slideshow 40s linear infinite;
 }
 .slider-track:hover{
     animation-play-state:paused;
@@ -640,6 +653,15 @@ form button {
 }
 .map-des i{
     font-size: 30px;
+}
+
+.map-des h2{
+    color: white;
+    text-decoration: none;
+}
+.map-des h2:hover{
+    color: #C899FF;
+
 }
 
 .map-rating {
